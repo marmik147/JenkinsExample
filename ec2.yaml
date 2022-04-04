@@ -41,7 +41,9 @@ Resources:
       SubnetId: 
         Ref: SubnetID
       SecurityGroupIds:
-        - sg-0ec0c9615bafb43ab
+        - sg-0ec0c9615bafb43ab 
+      RoleName:
+        - EC2InstanceProfile
       BlockDeviceMappings:
         -
           DeviceName: /dev/sda1
